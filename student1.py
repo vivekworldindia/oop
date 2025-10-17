@@ -1,9 +1,9 @@
-def main():
-    student = get_student()
-    if student["name"] == "vivek":
-        student["house"] = "world"
+# def main():
+#     student = get_student()
+#     if student["name"] == "vivek":
+#         student["house"] = "world"
 
-    print(f"{student['name']} from {student['house']}")
+#     print(f"{student['name']} from {student['house']}")
     
     
     
@@ -13,28 +13,28 @@ def main():
 #    return name,house
 
 
-# tupel ##
+# # tupel ##
  
-# def get_student():
-#    name = input("Name: ")
-#    house = input("House: ")
-#    return (name,house)
+# # def get_student():
+# #    name = input("Name: ")
+# #    house = input("House: ")
+# #    return (name,house)
 
-#### list 
+# #### list 
     
+# # def get_student():
+# #    name = input("Name: ")
+# #    house = input("House: ")
+# #    return [name,house]
+
+# #### dict 
+
 # def get_student():
-#    name = input("Name: ")
-#    house = input("House: ")
-#    return [name,house]
-
-#### dict 
-
-def get_student():
- name = input("Name: ")
- house = input("House: ")
- student = {"name":name,"house":house}
- return student
+#  name = input("Name: ")
+#  house = input("House: ")
+#  student = {"name":name,"house":house}
+#  return student
 
  
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
